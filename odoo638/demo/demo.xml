@@ -1,0 +1,66 @@
+<odoo>
+    <data>
+<!--
+          <record id="object0" model="odoo638.odoo638">
+            <field name="name">Object 0</field>
+            <field name="value">0</field>
+          </record>
+
+          <record id="object1" model="odoo638.odoo638">
+            <field name="name">Object 1</field>
+            <field name="value">10</field>
+          </record>
+
+          <record id="object2" model="odoo638.odoo638">
+            <field name="name">Object 2</field>
+            <field name="value">20</field>
+          </record>
+
+          <record id="object3" model="odoo638.odoo638">
+            <field name="name">Object 3</field>
+            <field name="value">30</field>
+          </record>
+
+          <record id="object4" model="odoo638.odoo638">
+            <field name="name">Object 4</field>
+            <field name="value">40</field>
+          </record>
+-->
+<record id='camion1' model='odoo638.camiones638'>
+    <field name='name'>12345abc</field>
+    <field name='marca'>Scania</field>
+    <field name='modelo'>R570</field>
+</record>
+
+<record id="camion2" model="odoo638.camiones638">
+    <field name="name">12345abd</field>
+    <field name="marca">Volvo</field>
+    <field name="modelo">750</field>
+</record>
+
+<record id="coche1" model="odoo638.coches638">
+    <field name="name">12345abd</field>
+    <field name="marca">Seat</field>
+    <field name="modelo">Leon</field>
+</record>
+
+<record id="coche2" model="odoo638.coches638">
+    <field name="name">12345abc</field>
+    <field name="marca">Ford</field>
+    <field name="modelo">Mondeo</field>
+</record>
+
+<record id="tractor1" model="odoo638.tractores638">
+    <field name="name">12345abd</field>
+    <field name="marca">John Deere</field>
+    <field name="modelo">6250R</field>
+</record>
+
+<record id="tractor2" model="odoo638.tractores638">
+    <field name="name">12345abc</field>
+    <field name="marca">Fendt</field>
+    <field name="modelo">1050 Vario</field>
+</record>
+
+    </data>
+</odoo>
